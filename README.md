@@ -1,7 +1,10 @@
 # Project_assignment
 
-run_analysis.R description:
+Assumptions made:
+- All columns in data files for which the name matches "mean()" or "std()" should be kept and part of the final output
+- Column names are descriptive as such (selected by experts) and kept as they are
 
+run_analysis.R description:
 - set working directory
 - load needed libraries
 - read needed data files and load them to R -> fread() function
